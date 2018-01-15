@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="nlms_8h" kind="file" language="C++">
+    <compoundname>nlms.h</compoundname>
+    <includes refid="api_8h" local="no">AdaptiveFilter/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="nlms__impl_8h" local="no">nlms_impl.h</includedby>
+    <incdepgraph>
+      <node id="36">
+        <label>AdaptiveFilter/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="37">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="35">
+        <label>nlms.h</label>
+        <link refid="nlms.h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="40">
+        <label>nlms_impl.h</label>
+        <link refid="nlms__impl_8h"/>
+      </node>
+      <node id="39">
+        <label>nlms.h</label>
+        <link refid="nlms.h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1AdaptiveFilter_1_1nlms" prot="public">gr::AdaptiveFilter::nlms</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1AdaptiveFilter">gr::AdaptiveFilter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/john/nuradio/src/gr-AdaptiveFilter/include/AdaptiveFilter/nlms.h"/>
+  </compounddef>
+</doxygen>

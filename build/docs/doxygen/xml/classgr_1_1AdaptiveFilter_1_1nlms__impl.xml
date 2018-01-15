@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1AdaptiveFilter_1_1nlms__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::AdaptiveFilter::nlms_impl</compoundname>
+    <basecompoundref refid="classgr_1_1AdaptiveFilter_1_1nlms" prot="public" virt="non-virtual">gr::AdaptiveFilter::nlms</basecompoundref>
+    <basecompoundref prot="private" virt="non-virtual">fir_filter_ccc</basecompoundref>
+    <includes refid="nlms__impl_8h" local="no">nlms_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1af852db3a90ac5bf68d608923eb828917" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::AdaptiveFilter::nlms_impl::d_FilterLen</definition>
+        <argsstring></argsstring>
+        <name>d_FilterLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="38" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a3adac6ae3774cd3b011fc2ebe8d80446" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::AdaptiveFilter::nlms_impl::d_mu</definition>
+        <argsstring></argsstring>
+        <name>d_mu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="39" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1abf43249646d52516adc443a9df986bd0" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::AdaptiveFilter::nlms_impl::d_error</definition>
+        <argsstring></argsstring>
+        <name>d_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="40" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a55f4a6d93d9448fc55a634ca80ed57c7" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::AdaptiveFilter::nlms_impl::d_FilterOutput</definition>
+        <argsstring></argsstring>
+        <name>d_FilterOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="41" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a3a4c918161d386be08abe771dcf01c4c" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::AdaptiveFilter::nlms_impl::d_norm</definition>
+        <argsstring></argsstring>
+        <name>d_norm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="42" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a8798e2cc426a72aef720ff47aa705a95" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::AdaptiveFilter::nlms_impl::d_new_taps</definition>
+        <argsstring></argsstring>
+        <name>d_new_taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="43" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a17f56f4a534a8728ee01363cac8e253f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::AdaptiveFilter::nlms_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="44" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a33a9eb5187defe9d25c62f703911672c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::AdaptiveFilter::nlms_impl::error</definition>
+        <argsstring>(const gr_complex &amp;in)</argsstring>
+        <name>error</name>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1ace970c36d4529178ca9c7f1f14c4358b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::AdaptiveFilter::nlms_impl::update_tap</definition>
+        <argsstring>(gr_complex &amp;tap, const gr_complex &amp;in)</argsstring>
+        <name>update_tap</name>
+        <param>
+          <type>gr_complex &amp;</type>
+          <declname>tap</declname>
+        </param>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a5e05161c200727f46ca80e7c16b69e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::AdaptiveFilter::nlms_impl::nlms_impl</definition>
+        <argsstring>(float mu, int FilterLen)</argsstring>
+        <name>nlms_impl</name>
+        <param>
+          <type>float</type>
+          <declname>mu</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>FilterLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a0e7684d66e8c3b29720dce746d1a9594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::AdaptiveFilter::nlms_impl::~nlms_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~nlms_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a780010234f4da7f27e71f5f5841b6cec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::AdaptiveFilter::nlms_impl::set_taps</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a103d1726f906ce868bb53c9e3fbdd4a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::AdaptiveFilter::nlms_impl::taps</definition>
+        <argsstring>() const </argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1ac8b56b9bf070b0ef6adf8b8fabb676e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::AdaptiveFilter::nlms_impl::gain</definition>
+        <argsstring>() const </argsstring>
+        <name>gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="57" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a1039e6426298bdd0347942de502ee6ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::AdaptiveFilter::nlms_impl::set_gain</definition>
+        <argsstring>(float mu)</argsstring>
+        <name>set_gain</name>
+        <param>
+          <type>float</type>
+          <declname>mu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="62" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="62" bodyend="69"/>
+        <references refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a00e9bf43911e3412cdc3184ddcbac89e">work</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a00e9bf43911e3412cdc3184ddcbac89e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::AdaptiveFilter::nlms_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="72" column="1"/>
+        <referencedby refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a1039e6426298bdd0347942de502ee6ef" compoundref="nlms__impl_8h" startline="62" endline="69">set_gain</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>gr::AdaptiveFilter::nlms_impl</label>
+        <link refid="classgr_1_1AdaptiveFilter_1_1nlms__impl"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="15" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="15">
+        <label>filter::kernel::fir_filter_ccc</label>
+      </node>
+      <node id="13">
+        <label>gr::AdaptiveFilter::nlms</label>
+        <link refid="classgr_1_1AdaptiveFilter_1_1nlms"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>gr::AdaptiveFilter::nlms_impl</label>
+        <link refid="classgr_1_1AdaptiveFilter_1_1nlms__impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="19">
+        <label>filter::kernel::fir_filter_ccc</label>
+      </node>
+      <node id="17">
+        <label>gr::AdaptiveFilter::nlms</label>
+        <link refid="classgr_1_1AdaptiveFilter_1_1nlms"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="36" column="1" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="35" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1abf43249646d52516adc443a9df986bd0" prot="private" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>d_error</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1af852db3a90ac5bf68d608923eb828917" prot="private" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>d_FilterLen</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a55f4a6d93d9448fc55a634ca80ed57c7" prot="private" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>d_FilterOutput</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a3adac6ae3774cd3b011fc2ebe8d80446" prot="private" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>d_mu</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a8798e2cc426a72aef720ff47aa705a95" prot="private" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>d_new_taps</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a3a4c918161d386be08abe771dcf01c4c" prot="private" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>d_norm</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a17f56f4a534a8728ee01363cac8e253f" prot="private" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a33a9eb5187defe9d25c62f703911672c" prot="protected" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>error</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1ac8b56b9bf070b0ef6adf8b8fabb676e6" prot="public" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>gain</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms_1a41e2a62cdd30d9165d9eeddb303fd157" prot="public" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a5e05161c200727f46ca80e7c16b69e4b" prot="public" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>nlms_impl</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a1039e6426298bdd0347942de502ee6ef" prot="public" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>set_gain</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a780010234f4da7f27e71f5f5841b6cec" prot="public" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms_1a38226f71fe5435e456bf742561506e98" prot="public" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a103d1726f906ce868bb53c9e3fbdd4a5" prot="public" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1ace970c36d4529178ca9c7f1f14c4358b" prot="protected" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>update_tap</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a00e9bf43911e3412cdc3184ddcbac89e" prot="public" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a0e7684d66e8c3b29720dce746d1a9594" prot="public" virt="non-virtual"><scope>gr::AdaptiveFilter::nlms_impl</scope><name>~nlms_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

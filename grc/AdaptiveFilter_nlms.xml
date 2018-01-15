@@ -1,0 +1,21 @@
+<block>
+  <name>Nlms</name>
+  <key>AdaptiveFilter_nlms</key>
+  <category>[ADAPTIVEFILTER]</category>
+  <import>import AdaptiveFilter</import>
+  <make>AdaptiveFilter.nlms($int)</make>
+  <param>
+    <name>Int</name>
+    <key>int</key>
+    <type>raw</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <nports>2</nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1AdaptiveFilter_1_1nlms" kind="class"><name>gr::AdaptiveFilter::nlms</name>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms_1a38226f71fe5435e456bf742561506e98" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms_1a41e2a62cdd30d9165d9eeddb303fd157" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1AdaptiveFilter_1_1nlms__impl" kind="class"><name>gr::AdaptiveFilter::nlms_impl</name>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1af852db3a90ac5bf68d608923eb828917" kind="variable"><name>d_FilterLen</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a3adac6ae3774cd3b011fc2ebe8d80446" kind="variable"><name>d_mu</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1abf43249646d52516adc443a9df986bd0" kind="variable"><name>d_error</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a55f4a6d93d9448fc55a634ca80ed57c7" kind="variable"><name>d_FilterOutput</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a3a4c918161d386be08abe771dcf01c4c" kind="variable"><name>d_norm</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a8798e2cc426a72aef720ff47aa705a95" kind="variable"><name>d_new_taps</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a17f56f4a534a8728ee01363cac8e253f" kind="variable"><name>d_updated</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a33a9eb5187defe9d25c62f703911672c" kind="function"><name>error</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1ace970c36d4529178ca9c7f1f14c4358b" kind="function"><name>update_tap</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a5e05161c200727f46ca80e7c16b69e4b" kind="function"><name>nlms_impl</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a0e7684d66e8c3b29720dce746d1a9594" kind="function"><name>~nlms_impl</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a780010234f4da7f27e71f5f5841b6cec" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a103d1726f906ce868bb53c9e3fbdd4a5" kind="function"><name>taps</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1ac8b56b9bf070b0ef6adf8b8fabb676e6" kind="function"><name>gain</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a1039e6426298bdd0347942de502ee6ef" kind="function"><name>set_gain</name></member>
+    <member refid="classgr_1_1AdaptiveFilter_1_1nlms__impl_1a00e9bf43911e3412cdc3184ddcbac89e" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1AdaptiveFilter" kind="namespace"><name>gr::AdaptiveFilter</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a13b754cf583742b6ece9c43565f36573" kind="define"><name>ADAPTIVEFILTER_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="nlms_8h" kind="file"><name>nlms.h</name>
+  </compound>
+  <compound refid="nlms__impl_8h" kind="file"><name>nlms_impl.h</name>
+    <member refid="nlms__impl_8h_1a9a2a6e518380ebe8b27e0a58ae4fc8be" kind="define"><name>DEMANGLE_TYPEID_NAME</name></member>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_ca7264ff537451e1db752bcd675e99c0" kind="dir"><name>AdaptiveFilter</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

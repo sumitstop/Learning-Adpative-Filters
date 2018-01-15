@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="nlms__impl_8h" kind="file" language="C++">
+    <compoundname>nlms_impl.h</compoundname>
+    <includes refid="nlms_8h" local="no">AdaptiveFilter/nlms.h</includes>
+    <includes local="no">gnuradio/filter/fir_filter.h</includes>
+    <includes local="no">gnuradio/math.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">stdexcept</includes>
+    <includes local="no">gnuradio/gr_complex.h</includes>
+    <incdepgraph>
+      <node id="46">
+        <label>gnuradio/filter/fir_filter.h</label>
+      </node>
+      <node id="47">
+        <label>gnuradio/math.h</label>
+      </node>
+      <node id="43">
+        <label>AdaptiveFilter/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>stdexcept</label>
+      </node>
+      <node id="45">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="44">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="41">
+        <label>nlms_impl.h</label>
+        <link refid="nlms_impl.h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>vector</label>
+      </node>
+      <node id="50">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="42">
+        <label>AdaptiveFilter/nlms.h</label>
+        <link refid="nlms_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1AdaptiveFilter_1_1nlms__impl" prot="public">gr::AdaptiveFilter::nlms_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1AdaptiveFilter">gr::AdaptiveFilter</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="nlms__impl_8h_1a9a2a6e518380ebe8b27e0a58ae4fc8be" prot="public" static="no">
+        <name>DEMANGLE_TYPEID_NAME</name>
+        <param><defname>x</defname></param>
+        <initializer>abi::__cxa_demangle(typeid((x)).name(), NULL, NULL, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" line="30" column="15" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/john/nuradio/src/gr-AdaptiveFilter/lib/nlms_impl.h"/>
+  </compounddef>
+</doxygen>

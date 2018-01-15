@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_ca7264ff537451e1db752bcd675e99c0" kind="dir">
+    <compoundname>/home/john/nuradio/src/gr-AdaptiveFilter/include/AdaptiveFilter</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="nlms_8h">nlms.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/john/nuradio/src/gr-AdaptiveFilter/include/AdaptiveFilter/"/>
+  </compounddef>
+</doxygen>

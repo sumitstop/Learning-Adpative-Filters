@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="nlms_8h" local="no">nlms.h</includedby>
+    <incdepgraph>
+      <node id="26">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="28">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>nlms_impl.h</label>
+        <link refid="nlms__impl_8h"/>
+      </node>
+      <node id="29">
+        <label>nlms.h</label>
+        <link refid="nlms_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a13b754cf583742b6ece9c43565f36573" prot="public" static="no">
+        <name>ADAPTIVEFILTER_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/john/nuradio/src/gr-AdaptiveFilter/include/AdaptiveFilter/api.h" line="30" column="12" bodyfile="/home/john/nuradio/src/gr-AdaptiveFilter/include/AdaptiveFilter/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/john/nuradio/src/gr-AdaptiveFilter/include/AdaptiveFilter/api.h"/>
+  </compounddef>
+</doxygen>
