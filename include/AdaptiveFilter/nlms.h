@@ -34,9 +34,16 @@ namespace gr {
      *
      */
     class ADAPTIVEFILTER_API nlms : virtual public gr::sync_block
+/*
+#ifdef gnuradio_AdaptiveFilter_EXPORTS
+#  define ADAPTIVEFILTER_API __GR_ATTR_EXPORT
+#else
+#  define ADAPTIVEFILTER_API __GR_ATTR_IMPORT
+#endif
+*/
     {
      public:
-      typedef boost::shared_ptr<nlms> sptr;
+      typedef boost::shared_ptr<nlms> sptr; // boost shared pointer to nlms will be known as sptr
 
       /*!
        * \brief Return a shared_ptr to a new instance of AdaptiveFilter::nlms.

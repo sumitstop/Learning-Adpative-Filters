@@ -62,7 +62,6 @@ swig/AdaptiveFilter_swig_swig_2d0df.cpp: /home/john/nuradio/include/gnuradio/swi
 swig/AdaptiveFilter_swig_swig_2d0df.cpp: /home/john/nuradio/include/gnuradio/swig/gr_ctrlport.i
 swig/AdaptiveFilter_swig_swig_2d0df.cpp: /home/john/nuradio/include/gnuradio/swig/runtime_swig_doc.i
 swig/AdaptiveFilter_swig_swig_2d0df.cpp: /home/john/nuradio/include/gnuradio/swig/hier_block2.i
-swig/AdaptiveFilter_swig_swig_2d0df.cpp: swig/AdaptiveFilter_swig_doc.i
 swig/AdaptiveFilter_swig_swig_2d0df.cpp: /home/john/nuradio/include/gnuradio/swig/basic_block.i
 swig/AdaptiveFilter_swig_swig_2d0df.cpp: /home/john/nuradio/include/gnuradio/swig/tags.i
 swig/AdaptiveFilter_swig_swig_2d0df.cpp: /home/john/nuradio/include/gnuradio/swig/block.i
@@ -92,23 +91,14 @@ swig/AdaptiveFilter_swig_swig_2d0df.cpp: /home/john/nuradio/include/gnuradio/swi
 swig/AdaptiveFilter_swig_swig_2d0df.cpp: swig/AdaptiveFilter_swig.tag
 	cd /home/john/nuradio/src/gr-AdaptiveFilter/build/swig && /usr/bin/cmake -E copy /home/john/nuradio/src/gr-AdaptiveFilter/build/swig/AdaptiveFilter_swig_swig_2d0df.cpp.in /home/john/nuradio/src/gr-AdaptiveFilter/build/swig/AdaptiveFilter_swig_swig_2d0df.cpp
 
-swig/AdaptiveFilter_swig_doc.i: swig/AdaptiveFilter_swig_doc_swig_docs/xml/index.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/john/nuradio/src/gr-AdaptiveFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for AdaptiveFilter_swig_doc"
-	cd /home/john/nuradio/src/gr-AdaptiveFilter/docs/doxygen && /usr/bin/python2 -B /home/john/nuradio/src/gr-AdaptiveFilter/docs/doxygen/swig_doc.py /home/john/nuradio/src/gr-AdaptiveFilter/build/swig/AdaptiveFilter_swig_doc_swig_docs/xml /home/john/nuradio/src/gr-AdaptiveFilter/build/swig/AdaptiveFilter_swig_doc.i
-
 swig/AdaptiveFilter_swig.tag: swig/_AdaptiveFilter_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/john/nuradio/src/gr-AdaptiveFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating AdaptiveFilter_swig.tag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/john/nuradio/src/gr-AdaptiveFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating AdaptiveFilter_swig.tag"
 	cd /home/john/nuradio/src/gr-AdaptiveFilter/build/swig && ./_AdaptiveFilter_swig_swig_tag
 	cd /home/john/nuradio/src/gr-AdaptiveFilter/build/swig && /usr/bin/cmake -E touch /home/john/nuradio/src/gr-AdaptiveFilter/build/swig/AdaptiveFilter_swig.tag
 
-swig/AdaptiveFilter_swig_doc_swig_docs/xml/index.xml: swig/_AdaptiveFilter_swig_doc_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/john/nuradio/src/gr-AdaptiveFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating doxygen xml for AdaptiveFilter_swig_doc docs"
-	cd /home/john/nuradio/src/gr-AdaptiveFilter/build/swig && ./_AdaptiveFilter_swig_doc_tag
-	cd /home/john/nuradio/src/gr-AdaptiveFilter/build/swig && /usr/bin/doxygen /home/john/nuradio/src/gr-AdaptiveFilter/build/swig/AdaptiveFilter_swig_doc_swig_docs/Doxyfile
-
 swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/AdaptiveFilter_swig_swig_2d0df.cpp.o: swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/AdaptiveFilter_swig_swig_2d0df.cpp.o: swig/AdaptiveFilter_swig_swig_2d0df.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/nuradio/src/gr-AdaptiveFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/AdaptiveFilter_swig_swig_2d0df.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/john/nuradio/src/gr-AdaptiveFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/AdaptiveFilter_swig_swig_2d0df.cpp.o"
 	cd /home/john/nuradio/src/gr-AdaptiveFilter/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/AdaptiveFilter_swig_swig_2d0df.cpp.o -c /home/john/nuradio/src/gr-AdaptiveFilter/build/swig/AdaptiveFilter_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/AdaptiveFilter_swig_swig_2d0df.cpp.i: cmake_force
@@ -140,7 +130,7 @@ AdaptiveFilter_swig_swig_2d0df_EXTERNAL_OBJECTS =
 swig/AdaptiveFilter_swig_swig_2d0df: swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/AdaptiveFilter_swig_swig_2d0df.cpp.o
 swig/AdaptiveFilter_swig_swig_2d0df: swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/build.make
 swig/AdaptiveFilter_swig_swig_2d0df: swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/john/nuradio/src/gr-AdaptiveFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable AdaptiveFilter_swig_swig_2d0df"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/john/nuradio/src/gr-AdaptiveFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AdaptiveFilter_swig_swig_2d0df"
 	cd /home/john/nuradio/src/gr-AdaptiveFilter/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
 	cd /home/john/nuradio/src/gr-AdaptiveFilter/build/swig && /usr/bin/cmake -E make_directory /home/john/nuradio/src/gr-AdaptiveFilter/build/swig
@@ -160,9 +150,7 @@ swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/clean:
 .PHONY : swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/depend: swig/AdaptiveFilter_swig_swig_2d0df.cpp
-swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/depend: swig/AdaptiveFilter_swig_doc.i
 swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/depend: swig/AdaptiveFilter_swig.tag
-swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/depend: swig/AdaptiveFilter_swig_doc_swig_docs/xml/index.xml
 	cd /home/john/nuradio/src/gr-AdaptiveFilter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/john/nuradio/src/gr-AdaptiveFilter /home/john/nuradio/src/gr-AdaptiveFilter/swig /home/john/nuradio/src/gr-AdaptiveFilter/build /home/john/nuradio/src/gr-AdaptiveFilter/build/swig /home/john/nuradio/src/gr-AdaptiveFilter/build/swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/AdaptiveFilter_swig_swig_2d0df.dir/depend
 
